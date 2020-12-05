@@ -11,7 +11,7 @@ spring:
     static-path-pattern: /static/**  #与swagger冲突
 
   datasource:
-    #url: jdbc:mysql://192.168.3.76:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    #url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
